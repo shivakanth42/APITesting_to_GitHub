@@ -18,6 +18,7 @@ public class LoginCreateIssueAddComment {
 	public static void JIRA() {
 		
 		//Login
+		//GitHub
 		RestAssured.baseURI="http://localhost:8080";
 		SessionFilter session = new SessionFilter();  //No login required for the below tasks by using this "SessionFilter'
 		//relaxedHTTPSValidation() method is used to aunthenticate http validation in realtime
